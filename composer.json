@@ -1,0 +1,21 @@
+{
+  "name": "williamgrant/planxty-sitemap",
+  "description": "Add a sitemap to a Planxty site",
+  "type": "planxty-ext",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "William Grant-Buckley",
+      "email": "hello@william.scot"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Planxty\\": "src"
+    }
+  },
+  "require": {
+    "williamgrant/planxty": "*",
+    "evert/sitemap-php": "^1.2"
+  }
+}
